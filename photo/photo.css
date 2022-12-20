@@ -1,0 +1,105 @@
+    div.bei {
+        background: url('images/R-C.jfif') center repeat fixed;
+
+        overflow: hidden;
+    }
+
+    div.h11 {
+        width: 960px;
+        height: 500px;
+
+        position: relative;
+        margin: 100px auto;
+
+    }
+
+    img:nth-of-type(1) {
+        position: absolute;
+        left: -120px;
+        top: 160px;
+        transform: rotate(30deg);
+        z-index: 1;
+    }
+
+    img:nth-of-type(2) {
+        position: absolute;
+        left: 35px;
+        top: 60px;
+        transform: rotate(-10deg);
+        z-index: 1;
+    }
+
+    img:nth-of-type(3) {
+        position: absolute;
+        left: 156px;
+        top: 80px;
+        transform: rotate(20deg);
+        z-index: 9;
+    }
+
+    img:nth-of-type(4) {
+        position: absolute;
+        left: 299px;
+        top: 60px;
+        transform: rotate(-10deg);
+        z-index: 3;
+    }
+
+    img:nth-of-type(5) {
+        position: absolute;
+        left: 448px;
+        top: 70px;
+        transform: rotate(20deg);
+        z-index: 2;
+    }
+
+    img:nth-of-type(6) {
+        position: absolute;
+        left: 559px;
+        top: 80px;
+        transform: rotate(-15deg);
+        z-index: 1;
+    }
+
+    img:nth-of-type(7) {
+        position: absolute;
+        left: 6300px;
+        top: 90px;
+        transform: rotate(25deg);
+        z-index: 1;
+    }
+
+    img:nth-of-type(8) {
+        position: absolute;
+        left: 740px;
+        top: 80px;
+        transform: rotate(20deg);
+        z-index: 5;
+    }
+
+    img:nth-of-type(9) {
+        position: absolute;
+        left: 892px;
+        top: 160px;
+        transform: rotate(30deg);
+        z-index: 4;
+    }
+
+    img {
+        border: 1px solid blanchedalmond;
+        padding: 10px;
+        background-color: white;
+        transition: all 1s;
+        width: 150px;
+    }
+
+    img:hover {
+        transform: rotate(0deg) scale(1.5);
+        z-index: 12;
+        cursor: pointer;
+    }
+
+    div.h1 {
+        text-align: center;
+        height: 10px;
+    }
