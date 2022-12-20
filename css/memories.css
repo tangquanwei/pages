@@ -1413,7 +1413,7 @@
 		transition: all 10s;
 	}
 	.active .ly-box23{
-		height:600px;
+		height:500px;
 		transition-delay: 8s;
 	}
 	/*小三角*/
@@ -1445,7 +1445,7 @@
 		position: absolute;
 		bottom: 0;
 		width: 100%;
-		height: 80%;
+		height: 100%;
 		border-radius: 8px;
 		opacity:0;
 		overflow: hidden;
@@ -1812,7 +1812,7 @@
 	/* 盒子 */
 	.ly-box31 {
 		width: 65%;
-		height: 60%;
+		height: 70%;
 		border: 2px #CCC;
 		background-color: #fff;
 		background-color: rgba(255,255,255,0.6);
@@ -1938,7 +1938,7 @@
 	/* 盒子 */
 	.ly-box32 {
 		width: 40%;
-		height: 400px;
+		height: 600px;
 		border: 2px #CCC;
 		background-color: #fff;
 		background-color: rgba(255,255,255,0.6);
@@ -2010,31 +2010,14 @@
 }
 
 /*图片*/
-.ly-imgbox31{
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 70%;
-	border-radius: 8px;
-	opacity:0;
-	overflow: hidden;
-	transition:all 0.5s;
-}
-.active .ly-imgbox31{
-	opacity:1;
-	transition-delay:3.5s;
-}
-.ly-img31{
-	position: absolute;
-	width: 100%;
-	bottom: 0;
-}
+
+
 
 .ly-imgbox31{
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 70%;
+	height: 68%;
 	border-radius: 8px;
 	opacity:0;
 	overflow: hidden;
@@ -2146,7 +2129,7 @@
 		transition: all 10s;
 	}
 	.active .ly-box51{
-		height:500px;
+		height:600px;
 		transition-delay: 8s;
 	}
 	
@@ -2191,7 +2174,7 @@
 		transition: all 10s;
 	}
 	.active .ly-box51{
-		height: 40%;
+		height: 100%;
 		transition-delay: 8s;
 	}
 	
